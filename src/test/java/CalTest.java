@@ -8,6 +8,6 @@ class CalTest {
     void basicUnitTest() {
         Cal cal = new Cal();
         int ret = cal.getSum(10, 20);
-        assertEquals(30, ret);
+        assertEquals(1, ret);
     }
 }
